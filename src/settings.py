@@ -28,7 +28,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Domain.Geospatial(is_used=False), 
     Industry.Environmental(is_used=False),
 ]
-CATEGORY: Category = Category.Satellite(extra=Category.Aerial())
+CATEGORY: Category = Category.Satellite(extra=[Category.Aerial(), Category.Environmental()])
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
