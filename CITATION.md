@@ -1,7 +1,13 @@
 If you make use of the DeepGlobe 2018 Road Extraction data, please cite the following reference:
 
 ``` bibtex
-PASTE HERE CUSTOM CITATION FROM THE SOURCE URL
+@InProceedings{DeepGlobe18,
+  author = {Demir, Ilke and Koperski, Krzysztof and Lindenbaum, David and Pang, Guan and Huang, Jing and Basu, Saikat and Hughes, Forest and Tuia, Devis and Raskar, Ramesh},
+  title = {DeepGlobe 2018: A Challenge to Parse the Earth Through Satellite Images},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  month = {June},
+  year = {2018}
+}
 ```
 
 [Source](https://competitions.codalab.org/competitions/18467)
