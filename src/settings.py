@@ -21,7 +21,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Custom(
-    source_url="http://deepglobe.org/docs/CVPR_InternalUseLicenseAgreement_07-11-18.pdf"
+    source_url="https://competitions.codalab.org/competitions/18467#learn_the_details-terms_and_conditions"
 )
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Research.UrbanPlanning(),
