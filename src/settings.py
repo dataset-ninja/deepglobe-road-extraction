@@ -21,7 +21,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Custom(
-    url="http://deepglobe.org/docs/CVPR_InternalUseLicenseAgreement_07-11-18.pdf"
+    source_url="http://deepglobe.org/docs/CVPR_InternalUseLicenseAgreement_07-11-18.pdf"
 )
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Research.UrbanPlanning(),
@@ -49,7 +49,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/deepglobe-road-extraction"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset"]
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -59,7 +59,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://arxiv.org/abs/1805.06561"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle":"https://www.kaggle.com/datasets/balraj98/deepglobe-land-cover-classification-dataset"}
 
 CITATION_URL: Optional[str] = "https://competitions.codalab.org/competitions/18467"
 AUTHORS: Optional[List[str]] = ["Ilke Demir", "Krzysztof Koperski", "David Lindenbaum", "Guan Pang", "Jing Huang", "Saikat Basu", "Forest Hughes", "Devis Tuia", "Ramesh Raskar"]
