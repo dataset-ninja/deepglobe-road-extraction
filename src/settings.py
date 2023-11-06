@@ -63,6 +63,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle":"https:/
 
 CITATION_URL: Optional[str] = "https://competitions.codalab.org/competitions/18467"
 AUTHORS: Optional[List[str]] = ["Ilke Demir", "Krzysztof Koperski", "David Lindenbaum", "Guan Pang", "Jing Huang", "Saikat Basu", "Forest Hughes", "Devis Tuia", "Ramesh Raskar"]
+AUTHORS_CONTACTS: Optional[List[str]] = None
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Facebook", "DigitalGlobe", "CosmiQ Works", "Wageningen University", "The MIT Media Lab"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["facebook.com", "https://www.maxar.com/", "https://www.cosmiqworks.org/", "https://www.wur.nl/en/wageningen-university.htm", "https://www.media.mit.edu/"]
@@ -116,6 +117,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
