@@ -1,6 +1,6 @@
 Dataset **DeepGlobe 2018 Road Extraction** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/Z/C/1K/W5nyxIARtmYttR9RGpdFsLlbR57CO2aTOGiUy5Y6nrd0yWWMImgzQYeS92WEvzPgVsLY7opfNMZbYbDfs23gz902P0EczwNl0NUaHxRaAD9ik8EZxq2NeCAeJ1rj.tar)
+ [Download](https://www.dropbox.com/scl/fi/mfednzpq66tjehy8f3jvo/deepglobe-2018-road-extraction-DatasetNinja.tar?rlkey=qo77ekgtnsx7gekcmgydmu8v4&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
